@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_noti"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_star"
+            android:title="Premium Services" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_tutorial"
+            android:icon="@drawable/ic_school"
+            android:title="Tutorial" />
+
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/ic_noti"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_face"
+            android:icon="@drawable/ic_lfacebook"
+            android:title="Like us on Facebook" />
+
+        <item
+            android:id="@+id/nav_twitter"
+            android:icon="@drawable/ic_twitter"
+            android:title="Follow us on Twitter" />
+        <item
+            android:id="@+id/nav_cogi"
+            android:icon="@drawable/ic_cogi"
+            android:title="About Cogi" />
+    </group>
+
+
+</menu>
